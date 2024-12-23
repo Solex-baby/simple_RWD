@@ -1,0 +1,183 @@
+body {
+	font-size: 16px;
+    color: #fff;
+    background-color: pink;
+    font-family: 'Oxygen', sens-serif; 
+    padding: 0;
+}
+
+
+/*
+*{
+  outline: solid #f00 1px !important;
+  background: #000 !important;
+  color: #fff !important;
+}
+*/
+
+/** HEADER **/
+
+#header-nav {                           /*  導覽列方塊 */
+  background-color: blue;
+  border-radius: 0;
+  border: 0px;
+  min-height: 120px;
+
+}
+
+.navbar-brand {
+  padding-top: 20px;
+}
+
+
+.navbar-brand h1 {                         /* Restaurant name */
+  font-family: 'Oxygen', serif;
+  color: white;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list {
+	background-color: whitesmoke;   /* dropdown menu color */
+	margin: 0 -15px;
+}
+
+#nav-list a {                     /* dropdown menu text*/
+   color: darkblue;
+   font-size: 1.3em;
+   text-align: center;
+   font-weight: bold;
+   line-height: 30px;
+   padding-bottom: 10px;
+   adding-top: 20px;
+   border-bottom: 2px solid lightgrey;
+}
+
+
+
+/* .navbar-header button.navbar-toggle漢堡方框外框 */
+/* .navbar-header .icon-bar漢堡的三條線 */
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {    /* 整個漢堡按鈕 */
+  border: 2px solid white;
+}
+
+
+.navbar-header button.navbar-toggle {    /* 漢堡方框 */
+  clear: both;
+  margin-top: -10px;
+  padding: 15px;
+  margin-bottom: 30px;
+  margin-right: 40px;
+}
+
+
+/* END HEADER */
+
+
+
+
+/* MAIN CONTENT */
+
+.container-fluid  {
+	padding-right: 0;
+	margin: 0;
+}
+
+.container-fluid h2 {
+	color: purple;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+
+.col-lg-4.col-md-6.col-xs-12 {
+    
+}
+
+
+div p {                           /* 白色方塊 */
+
+	background-color: white;
+	height: 900px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 40px;
+	padding-top: 80px;
+	margin-right: 40px;
+	margin-left: 30px;
+	overflow: auto;
+}
+
+
+h3 {                            /* Chicken Beef Sushi */
+	position: absolute;
+    top: 30px;
+    width: 100%;
+    color: black;
+	font-weight: bold;
+}
+
+
+section a {                    /* 菜單內容文字 */
+	color: dimgrey;
+}
+
+section a:hover, section a:visited, section a:link, section a:active {
+	text-decoration: none;
+
+
+/* END of MAIN CONTENT */
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+.navbar-collapse.collapse {
+	height: auto;
+	padding-bottom: 70px;
+}
+.nav#header-nav.navbar.navbar-default {
+	height: 60px;
+
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+
+}
+
+
+
+
+
+
+  /********** Extra small devices only **********/
+
+
+

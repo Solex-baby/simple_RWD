@@ -4,21 +4,86 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <title>Bootstrap Starter Page</title>
+    <title>FOOD, LLC</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
   </head>
-<body>
 
-  <h1>Hello Solex!</h1>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-dufault">  <!-- navbar-default 先去掉 -->
+      <div class="container">
+       <div class="navbar-header">
+          <div class="navbar-brand">
+          <a href="index.html" ><h1>FOOD, LLC</h1></a>  
+          </div>  <!-- Navbar-brand -->
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+          </button>   
+       </div>   <!-- Navbar-header -->
+
+
+       <div id="collapsable-nav" class="collapse navbar-collapse"> 
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+
+            <li class="visible-xs">
+              <a href="#item-1">Chicken</a>
+            </li>
+
+            <li class="visible-xs">
+               <a href="#item-2">Beef</a>
+            </li>
+
+            <li li class="visible-xs">
+              <a href="#item-3">Sushi</a> 
+            </li>
+
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+
+<div id="main-content" class="container-fluid">
+  <h2 id="menu-categories-title" class="text-center">Our Menu</h2>
+
+
+  <section class="row">
+      <div class="col-lg-4 col-md-6"> 
+         
+        <a>
+            <h3 id="item-1" class="text-center" width="100%" height="100%">Chicken</h3><br><p>Italian chicken dishes have long been a staple of Italy’s vibrant culinary heritage, combining rich history, distinctive regional flavors, and high-quality, fresh ingredients. The roots of Italian chicken cuisine trace back to ancient Roman times when poultry was often featured in feasts and celebrations. Over the centuries, these early influences evolved, resulting in a diverse array of chicken-based dishes from various regions, each offering unique twists and local specialties.One of the key features of Italian chicken cooking is its simplicity and emphasis on fresh, seasonal ingredients. Olive oil, garlic, basil, rosemary, and sun-ripened tomatoes are among the essential staples that infuse each dish with vibrant flavors. Classic recipes like Pollo alla Cacciatora (hunter's chicken), Pollo al Limone (lemon chicken), and Pollo alla Parmigiana (chicken Parmesan) have become iconic, showcasing the ability to balance tangy, savory, and herby notes in perfect harmony.What makes Italian chicken dishes truly special is the dedication to preserving the natural flavors of the chicken, enhanced by slow-cooking methods that allow the meat to soak up the richness of the ingredients. Whether the chicken is simmered in a tomato sauce, grilled with aromatic herbs, or baked to golden perfection, every dish is a reflection of Italy's regional diversity and passion for food. The simplicity of the preparation highlights the importance of quality ingredients, ensuring that each bite is a celebration of Italy’s centuries-old culinary traditions. <br><br><a href="#menu-categories-title" class="hidden-lg" id="back-to-top" style="color: royalblue;">(End of Chicken section) Back To Top</a></p>
+         
+        </a>  <!--  item-1   -->
+      </div>
+  
+
+      <div class="col-lg-4 col-md-6">
+        <a>
+            <h3 id="item-2" class="text-center">Beef</h3><br><p>Italian beef dishes are a testament to Italy’s rich culinary heritage, where the art of cooking meat is celebrated with passion and tradition. Beef has been a prominent feature in Italian cuisine since ancient times, particularly in the northern regions, where the cooler climate and fertile lands allowed for the breeding of cattle. Over the centuries, these regional variations developed into iconic dishes that highlight the versatility and depth of flavor beef can offer.Italian beef specialties include Bistecca alla Fiorentina, a thick-cut, char-grilled T-bone steak from Tuscany, and Brasato al Barolo, a slow-cooked beef stew made with the famous Barolo wine. These dishes showcase the Italian love for high-quality cuts of beef, prepared simply but with great attention to detail.Essential ingredients in Italian beef recipes include extra virgin olive oil, garlic, rosemary, balsamic vinegar, and rich local wines like Chianti and Barolo. These ingredients enhance the natural flavors of the beef, whether it's braised, grilled, or roasted. The slow-cooking methods allow the beef to tenderize, absorbing the aromatic seasonings and delivering a truly unforgettable flavor. Italian beef dishes celebrate the country's dedication to fresh, high-quality ingredients and centuries of culinary tradition. <br><br><a href="#menu-categories-title" class="hidden-lg" id="back-to-top" style="color: royalblue;">(End of Beef section) Back To Top</a></p>
+      
+        </a>    <!--  item-2   -->
+      </div>
+  
+
+      <div class="col-lg-4 col-md-12">
+        <a>
+            <h3 id="item-3" class="text-center">Sushi</h3><br><p>Italian sushi blends the artistry of traditional Japanese sushi with the bold, vibrant flavors of Italy, creating a unique fusion of cultures. Inspired by the growing trend of culinary crossovers, Italian sushi often features fresh, locally sourced ingredients like prosciutto, mozzarella, and balsamic vinegar, paired with sushi rice and nori. Popular specialties include Sushi alla Caprese, with fresh mozzarella and tomatoes, and Tuna Tartare with Olive Oil, highlighting Italy's rich coastal flavors. Key ingredients such as extra virgin olive oil, basil, and high-quality seafood elevate this innovative take on sushi, offering a delightful blend of East meets West.<br><br><a href="#menu-categories-title" class="hidden-lg" id="back-to-top" style="color: royalblue;">(End of Sushi section) Back To Top</a></p>
+       
+        </a>     <!--  item-3   -->
+      </div>
+
+
+
+  </section>  <!--  Row   -->
+
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
